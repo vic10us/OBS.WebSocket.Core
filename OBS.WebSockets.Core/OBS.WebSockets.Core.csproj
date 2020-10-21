@@ -3,11 +3,30 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/vic10us/OBS.WebSockets.Core</PackageProjectUrl>
+    <PackageIcon>vic10usCodez-05.png</PackageIcon>
+    <RepositoryUrl>https://github.com/vic10us/OBS.WebSockets.Core</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>OBS WebSockets NetStandard</PackageTags>
+    <Description>A .NET library written in C# to communicate with an obs-websocket server.</Description>
+    <Copyright>2020 @ vic10us (DEXS Inc.)</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="WebSocketSharp-netstandard" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Users\sherl\Downloads\OBS\Icons\vic10usCodez-05.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

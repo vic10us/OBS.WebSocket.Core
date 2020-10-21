@@ -1,5 +1,5 @@
 # OBS.WebSockets.Core
-A .NET library wrote in C# to communicate with an obs-websocket server. Depends on [websocket-sharp](https://github.com/sta/websocket-sharp) and [NewtonSoft.Json](http://www.newtonsoft.com/json).
+A .NET library written in C# to communicate with an obs-websocket server. Depends on [websocket-sharp](https://github.com/sta/websocket-sharp) and [NewtonSoft.Json](http://www.newtonsoft.com/json).
 
 This library is available on the [NuGet gallery](https://www.nuget.org/packages/obs-websockets-core). See the `TestClient` project for a working example.
 
